@@ -1,0 +1,77 @@
+{
+  "License-2.jpg": {
+    "document_type": "Pennsylvania Driver's License",
+    "issuing_country": "USA",
+    "full_name": "Janice Ann Sample",
+    "date_of_birth": "01/07/2005",
+    "document_number": "99 999 999",
+    "additional_info": {
+      "height": "5'5\"",
+      "eye_color": "BLU"
+    },
+    "gender": "F",
+    "first_name": "Janice",
+    "last_name": "Ann Sample"
+  },
+  "passport-2.jpg": {
+    "document_type": "Passport",
+    "issuing_country": "United States",
+    "full_name": "Benjamin Franklin",
+    "date_of_birth": "17 Jan 1706",
+    "gender": "Male",
+    "document_number": "575034801",
+    "additional_info": {
+      "eye_color": "Brown",
+      "hair_color": "Brown",
+      "height": "5' 9\""
+    },
+    "first_name": "Benjamin",
+    "last_name": "Franklin"
+  },
+  "License-3.jpeg": {
+    "document_type": "North Carolina Driver License",
+    "issuing_country": "USA",
+    "full_name": "John G. Purvis",
+    "date_of_birth": "05/28/1952",
+    "gender": "Male",
+    "document_number": "00123456789",
+    "additional_info": {
+      "eye_color": "Blue",
+      "hair_color": "Brown",
+      "height": "5'10\""
+    },
+    "address": "1234 Your Street, Your City, NC 99999-1234",
+    "first_name": "John",
+    "last_name": "G. Purvis"
+  },
+  "passport-1.jpeg": {
+    "document_type": "Passport",
+    "issuing_country": "United States of America",
+    "full_name": "John Doe",
+    "date_of_birth": "15 Mar 1996",
+    "gender": "Male",
+    "additional_info": {
+      "eye_color": "Brown",
+      "hair_color": "Blonde",
+      "height": "5' 11\""
+    },
+    "address": "California, U.S.A.",
+    "first_name": "John",
+    "last_name": "Doe"
+  },
+  "License 1.png": {
+    "document_type": "California Driver's License",
+    "issuing_country": "USA",
+    "full_name": "Ima Cardholder",
+    "date_of_birth": "08/31/1977",
+    "gender": "Female",
+    "document_number": "I1234568",
+    "additional_info": {
+      "height": "5'05\"",
+      "eye_color": "Brown",
+      "hair_color": "Brown"
+    },
+    "first_name": "Ima",
+    "last_name": "Cardholder"
+  }
+}

@@ -15,22 +15,28 @@ Repository: [https://github.com/XayHanmonty/id-verification-poc](https://github.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/XayHanmonty/id-verification-poc.git
     cd id-verification-poc
     ```
 
-2.  **Install Python dependencies:**
+2.  **Create and activate a virtual environment:**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3.  **Install Python dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Set Fireworks AI API Key:**
+4.  **Set Fireworks AI API Key:**
     Obtain an API key from [Fireworks AI](https://docs.fireworks.ai/). Set it as an environment variable:
     ```bash
     export FIREWORKS_API_KEY="your_fireworks_api_key"
     ```
 
-4.  **Place Input Images:**
+5.  **Place Input Images:**
     Put the identity document images (.png, .jpg, .jpeg) into the `data/images/` directory.
 
 ## Running the PoC
@@ -39,6 +45,8 @@ The project provides a unified entry point (`main.py`) that processes ID documen
 
 ```bash
 cd src
+
+# Run the main application
 python main.py
 ```
 
@@ -46,6 +54,7 @@ This will:
 - Process all images in the `data/images/` directory
 - Extract information using Llama-v3p2-11b-vision-instruct model
 - Save results to `output/extraction_results.json`
+- Display a sample of the extracted data
 
 ## Project Structure
 

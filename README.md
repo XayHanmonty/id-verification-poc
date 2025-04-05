@@ -2,6 +2,8 @@
 
 This project is a Proof of Concept (PoC) for extracting relevant information from identity documents (Passports, Driver's Licenses) using Fireworks AI vision models for structured data extraction, followed by post-processing and validation.
 
+Repository: [https://github.com/XayHanmonty/id-verification-poc](https://github.com/XayHanmonty/id-verification-poc)
+
 ## Features
 
 - Extract structured data from ID documents using state-of-the-art AI vision models
